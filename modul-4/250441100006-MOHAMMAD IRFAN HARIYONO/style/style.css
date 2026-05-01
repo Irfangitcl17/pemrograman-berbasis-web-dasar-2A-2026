@@ -1,0 +1,79 @@
+@keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .animate-fade-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .animate-fade-right {
+            animation: fadeInRight 1s ease-out forwards;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+  :root[data-theme="light"] {
+    --bg-main: #f5f7fb;
+    --bg-hero: #eef2fb;
+    --bg-card: #ffffff;
+    --bg-features: #eef2fb;
+    --bg-courses: #f8faff;
+    --text-dark: #323232;
+    --text-primary: #3852B4;
+    --text-gray: #6b7280;
+    --card-border: #f3f4f6;
+    --header-bg: #ffffff;
+    --icon-bg: #eef2fb;
+    --nav-color: #111827;
+  }
+
+  :root[data-theme="dark"] {
+    --bg-main: #0f1117;
+    --bg-hero: #1a1f2e;
+    --bg-card: #1e2235;
+    --bg-features: #1a1f2e;
+    --bg-courses: #131623;
+    --text-dark: #e2e8f0;
+    --text-primary: #7b93e8;
+    --text-gray: #a0aec0;
+    --card-border: #2d3348;
+    --header-bg: #1e2235;
+    --icon-bg: #252c42;
+    --nav-color: #e2e8f0;
+  }
+
+  body { background-color: var(--bg-main); transition: background-color 0.4s, color 0.4s; }
+  header { background: var(--header-bg) !important; transition: background 0.4s; }
+  nav a { color: var(--nav-color) !important; }
+  .bg-\[\#eef2fb\] { background-color: var(--bg-hero) !important; }
+  .bg-\[\#f8faff\] { background-color: var(--bg-courses) !important; }
+  .bg-white { background-color: var(--bg-card) !important; }
+  .text-\[\#323232\] { color: var(--text-dark) !important; }

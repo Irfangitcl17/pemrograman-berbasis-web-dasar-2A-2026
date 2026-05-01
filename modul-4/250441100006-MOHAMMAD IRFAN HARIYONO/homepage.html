@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en" class="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Course</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+        }
+    </script>
+    <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body class="bg-[#f5f7fb] dark:bg-gray-900 font-sans text-gray-700 dark:text-gray-300 transition-colors duration-300">
+
+    <header class="bg-white dark:bg-gray-800 shadow-sm transition-colors duration-300">
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+
+            <nav class="flex gap-10 text-sm font-bold text-black dark:text-gray-200">
+                <a href="#" class="text-[#3852B4] dark:text-blue-400">HOME</a>
+                <a href="#">COURSES</a>
+                <a href="#">TEACHERS</a>
+                <a href="#">PAGES</a>
+                <a href="#">BLOG</a>
+                <a href="#">CONTACT</a>
+            </nav>
+            
+            <div id="hero-buttons" class="flex gap-2">
+                <button id="themeToggle" style="display:flex;align-items:center;gap:8px;background:#e2e8f0;border:none;border-radius:999px;padding:6px 14px 6px 8px;cursor:pointer;transition:all 0.3s;min-width:90px;">
+                    <span id="thumbIcon" style="width:28px;height:28px;background:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;box-shadow:0 2px 6px rgba(0,0,0,0.2);">☀️</span>
+                    <span id="themeLabel" style="font-size:12px;font-weight:700;letter-spacing:0.5px;color:#323232;">LIGHT</span>
+                </button>
+                <button class="contact-btn bg-[#3852B4] dark:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-semibold flex items-center gap-2 transition-colors">
+                    ➜ CONTACT US
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="bg-[#eef2fb] dark:bg-gray-800 pt-16 overflow-hidden transition-colors duration-300">
+        <div class="max-w-7xl mx-auto grid grid-cols-2 items-end px-6">
+
+            <div class="self-center pb-16">
+                <p class="text-sm font-bold text-[#3852B4] dark:text-blue-400 mb-3 uppercase">E-LEARNING PLATFORM</p>
+
+                <h1 class="text-5xl font-bold text-[#3852B4] dark:text-blue-300 leading-tight mb-2">
+                    Online Course Education
+                </h1>
+
+                <p class="text-4xl text-[#323232] dark:text-white font-sans font-semibold mb-6">Feels Like Real Classroom</p>
+
+                <div class="flex flex-wrap gap-8 mb-8 text-sm font-semibold font-sans text-[#323232] dark:text-gray-300">
+                    <div class="flex items-center gap-2">
+                        <img src="UTS/icon_checklist.svg" alt="" class=""> <span>Get Certificate</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img src="UTS/icon_checklist.svg" alt="" class="text-indigo-500">
+                        <span>Gain Job Ready Skill</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img src="UTS/icon_checklist.svg" alt="" class="">
+                        <span>Greay Life</span>
+                    </div>
+                </div>
+
+                <div id="hero-buttons" class="flex gap-4">
+                    <button class="bg-[#3852B4] dark:bg-blue-600 hover:bg-blue-800 text-white px-6 py-3 rounded-md text-sm font-bold flex items-center gap-2 transition-colors">
+                        GET STARTED <span>➜</span>
+                    </button>
+                    <button class="bg-[#F08D39] dark:bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md text-sm font-bold flex items-center gap-2 transition-colors">
+                        GET COURSE <span>➜</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex justify-center">
+                <img src="UTS/gambar_orang.png" class="w-full h-auto block -mb-14" alt="Person Image">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-[#5E7AC4] dark:bg-gray-700 text-white overflow-hidden transition-colors duration-300">
+        <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-16">
+            <div class="w-full max-w-lg">
+                <img src="UTS/gambar_course.png" class="w-full h-auto object-contain" alt="Course Image">
+            </div>
+
+            <div class="max-w-xl">
+                <p class="text-lg text-white mb-2 font-bold">GET TO KNOW ABOUT US</p>
+                <h2 class="text-4xl font-bold leading-snug mb-4">
+                    Transform your future with skills that matter. Start learning today, lead tomorrow.
+                </h2>
+                <p class="text-lg font-bold text-white mb-6">
+                    Can helping you build in-demand skills quickly and advance <br>
+                    your career in an ever-changing job market.
+                </p>
+                <button class="bg-[#F08D39] hover:bg-orange-600 px-5 py-4 rounded-md text-sm font-semibold transition-colors">
+                    About More →
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#eef2fb] dark:bg-gray-800 py-8 transition-colors duration-300">
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-center items-center gap-12 text-sm font-medium text-[#3b4da8] dark:text-blue-300">
+            <div class="flex items-center gap-2"><img src="UTS/icon_folder.svg" alt="" class="w-5 h-5"><span>20k+ Online Course</span></div>
+            <div class="flex items-center gap-2"><img src="UTS/icon_jam.svg" alt="" class="w-5 h-5"><span>Lifetime Acces</span></div>
+            <div class="flex items-center gap-2"><img src="UTS/icon_uang.svg" alt="" class="w-5 h-5"><span>Value For Money</span></div>
+            <div class="flex items-center gap-2"><img src="UTS/icon_headphone.svg" alt="" class="w-5 h-5"><span>Lifetime Support</span></div>
+            <div class="flex items-center gap-2"><img src="UTS/people_icon.svg" alt="" class="w-6 h-6"><span>Community Support</span></div>
+            <div class="flex items-center gap-2"><img src="UTS/icon_download.svg" alt="" class="w-6 h-6"><span>Free Download Course</span></div>
+        </div>
+    </section>
+
+    <section class="bg-[#f8faff] dark:bg-gray-900 py-28 transition-colors duration-300 w-full">
+        <div class="w-full px-8 md:px-16">
+
+            <h2 class="text-center text-4xl font-bold text-[#323232] dark:text-white mb-10 tracking-wide transition-colors duration-300">
+                OUR POPULAR COURSE
+            </h2>
+
+            <div class="grid grid-cols-4 gap-4 mb-12">
+                <div class="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-md border border-gray-100 dark:border-gray-700 flex items-center gap-4 transition-colors duration-300">
+                    <div class="bg-[#eef2fb] dark:bg-gray-700 p-3 rounded-lg text-blue-600 dark:text-blue-400">
+                        <img src="UTS/icon_toa.svg" alt="" class="w-6 h-6">
+                    </div>
+                    <div class="text-left">
+                        <p class="font-bold text-gray-800 dark:text-gray-100 text-sm">Digital Marketing</p>
+                        <p class="text-xs text-gray-400 dark:text-gray-400">354 Courses</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-md border border-gray-100 dark:border-gray-700 flex items-center gap-4 transition-colors duration-300">
+                    <div class="bg-[#eef2fb] dark:bg-gray-700 p-3 rounded-lg text-blue-600 dark:text-blue-400">
+                        <img src="UTS/icon_pallet.svg" alt="" class="w-6 h-6">
+                    </div>
+                    <div class="text-left">
+                        <p class="font-bold text-gray-800 dark:text-gray-100 text-sm">Graphic Design</p>
+                        <p class="text-xs text-gray-400 dark:text-gray-400">553 Courses</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-md border border-gray-100 dark:border-gray-700 flex items-center gap-4 transition-colors duration-300">
+                    <div class="bg-[#eef2fb] dark:bg-gray-700 p-3 rounded-lg text-blue-600 dark:text-blue-400">
+                        <img src="UTS/icon_hp.svg" alt="" class="w-6 h-6">
+                    </div>
+                    <div class="text-left">
+                        <p class="font-bold text-gray-800 dark:text-gray-100 text-sm">UI/UX Design</p>
+                        <p class="text-xs text-gray-400 dark:text-gray-400">175 Courses</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-md border border-gray-100 dark:border-gray-700 flex items-center gap-4 transition-colors duration-300">
+                    <div class="bg-[#eef2fb] dark:bg-gray-700 p-3 rounded-lg text-blue-600 dark:text-blue-400">
+                        <img src="UTS/icon_webpage.svg" alt="" class="w-6 h-6">
+                    </div>
+                    <div class="text-left">
+                        <p class="font-bold text-gray-800 dark:text-gray-100 text-sm">Web Development</p>
+                        <p class="text-xs text-gray-400 dark:text-gray-400">211 Courses</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-4 gap-8 mb-14">
+
+                <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md border border-gray-100 dark:border-gray-700 overflow-hidden p-3 flex flex-col justify-between transition-colors duration-300 cursor-pointer">
+                    <img src="UTS/thumbnail-1.png" class="h-44 w-full object-cover rounded-xl mb-4">
+                    <h3 class="text-base font-bold text-gray-800 dark:text-white mb-2 leading-snug">Learn Figma - UI/UX Design Fundamental</h3>
+                    <div>
+                        <div class="flex items-center gap-2 mb-2">
+                            <img src="UTS/profil_card.svg" alt="" class="w-6 h-6">
+                            <span class="text-[10px] text-gray-500 dark:text-gray-300">Programmer_Handal</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex gap-3 text-[10px] text-gray-400 dark:text-gray-400">
+                                <span class="flex items-center gap-1"><img src="UTS/folder_card.svg" alt="">20 Files</span>
+                                <span class="flex items-center gap-1"><img src="UTS/jam_card.svg" alt="">5 Hours</span>
+                            </div>
+                            <span class="bg-red-600 text-white text-[10px] font-bold px-2 py-0.5 rounded">FREE</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md border border-gray-100 dark:border-gray-700 overflow-hidden p-3 flex flex-col justify-between transition-colors duration-300 cursor-pointer">
+                    <img src="UTS/thumbnail-2.png" class="h-44 w-full object-cover rounded-xl mb-4">
+                    <h3 class="text-base font-bold text-gray-800 dark:text-white mb-2 leading-snug">Python Fundamental - For Algoritma Pemrograman</h3>
+                    <div>
+                        <div class="flex items-center gap-2 mb-2">
+                            <img src="UTS/profil_card.svg" alt="" class="w-6 h-6">
+                            <span class="text-[10px] text-gray-500 dark:text-gray-300">Programmer_Handal</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex gap-3 text-[10px] text-gray-400 dark:text-gray-400">
+                                <span class="flex items-center gap-1"><img src="UTS/folder_card.svg" alt="">20 Files</span>
+                                <span class="flex items-center gap-1"><img src="UTS/jam_card.svg" alt="">5 Hours</span>
+                            </div>
+                            <span class="bg-red-600 text-white text-[10px] font-bold px-2 py-0.5 rounded">FREE</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md border border-gray-100 dark:border-gray-700 overflow-hidden p-3 flex flex-col justify-between transition-colors duration-300 cursor-pointer">
+                    <img src="UTS/thumbnail-3.png" class="h-44 w-full object-cover rounded-xl mb-4">
+                    <h3 class="text-base font-bold text-gray-800 dark:text-white mb-2 leading-snug">Visual Hook - Course Digital Marketing Eps. 3</h3>
+                    <div>
+                        <div class="flex items-center gap-2 mb-2">
+                            <img src="UTS/profil_card.svg" alt="" class="w-6 h-6">
+                            <span class="text-[10px] text-gray-500 dark:text-gray-300">Programmer_Handal</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex gap-3 text-[10px] text-gray-400 dark:text-gray-400">
+                                <span class="flex items-center gap-1"><img src="UTS/folder_card.svg" alt="">20 Files</span>
+                                <span class="flex items-center gap-1"><img src="UTS/jam_card.svg" alt="">5 Hours</span>
+                            </div>
+                            <span class="bg-red-600 text-white text-[10px] font-bold px-2 py-0.5 rounded">FREE</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md border border-gray-100 dark:border-gray-700 overflow-hidden p-3 flex flex-col justify-between transition-colors duration-300 cursor-pointer">
+                    <img src="UTS/thumbnail-4.png" class="h-44 w-full object-cover rounded-xl mb-4">
+                    <h3 class="text-base font-bold text-gray-800 dark:text-white mb-2 leading-snug">Layout - Graphic Design For Beginner</h3>
+                    <div>
+                        <div class="flex items-center gap-2 mb-2">
+                            <img src="UTS/profil_card.svg" alt="" class="w-6 h-6">
+                            <span class="text-[10px] text-gray-500 dark:text-gray-300">Programmer_Handal</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex gap-3 text-[10px] text-gray-400 dark:text-gray-400">
+                                <span class="flex items-center gap-1"><img src="UTS/folder_card.svg" alt="">20 Files</span>
+                                <span class="flex items-center gap-1"><img src="UTS/jam_card.svg" alt="">5 Hours</span>
+                            </div>
+                            <span class="bg-red-600 text-white text-[10px] font-bold px-2 py-0.5 rounded">FREE</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="hero-buttons" class="text-center mt-12">
+                <button class="bg-[#3852B4] dark:bg-blue-600 text-white px-8 py-4 rounded-lg text-sm font-semibold hover:bg-blue-800 transition shadow-lg">
+                    View All Course →
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-[#5E7AC4] dark:bg-gray-950 text-white transition-colors duration-300">
+        <div class="w-full px-8 md:px-16 py-12">
+            <div class="grid grid-cols-12 gap-8 items-start">
+
+                <div class="col-span-6">
+                    <h3 class="text-2xl font-semibold leading-tight">
+                        Dive Into our Online Courses<br>
+                        and Ignite Your Learning
+                    </h3>
+                </div>
+
+                <div class="col-span-2">
+                    <h3 class="font-semibold text-lg mb-3">About Me</h3>
+                    <ul class="space-y-2 text-sm text-gray-100 dark:text-gray-400">
+                        <li>Short Profile</li>
+                        <li>Online Course</li>
+                        <li>Monthly Discount</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+
+                <div class="col-span-2">
+                    <h3 class="font-semibold text-lg mb-3">Navigation</h3>
+                    <ul class="space-y-2 text-sm text-gray-100 dark:text-gray-400">
+                        <li>Home</li>
+                        <li>Teachers</li>
+                        <li>Pages</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+
+                <div class="col-span-2">
+                    <h3 class="font-semibold text-lg mb-3">More Information</h3>
+                    <ul class="space-y-2 text-sm text-gray-100 dark:text-gray-400">
+                        <li>Privacy and terms</li>
+                        <li>Copyright</li>
+                        <li>Accessibility</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[#3852B4] dark:bg-black py-6 text-center text-xs opacity-90 transition-colors duration-300">
+            @2026 Online Course. All right reserved. Designed By Ahe Inc.
+        </div>
+    </footer>
+
+    <script src="script/homepage.js"></script>
+</body>
+</html>
